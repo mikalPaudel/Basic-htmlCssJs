@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <style>
+        nav{
+            box-shadow: rgba(3,27,78,.1) 0 2px 4px;
+            /* opacity: 50%; */
+            background-color:white;
+        }
+        
+        a {
+            color: red;
+            background-color: transparent;
+            /* text-decoration: none; */
+            /* background-color: green; */
+                /* color:white; */
+                /* padding:5px 5px; */
+                border-radius:5px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+        }
+
+        a:hover {
+            color: rgb(1, 1, 16);
+            background-color: transparent;
+            /* border: 1px; */
+        }
+
+        a:focus {
+            border-bottom: 2px solid black;
+            border-radius: 20px;
+            color: rgb(54, 53, 64);
+            /* background-color: transparent; */
+        }
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="d-flex flex-wrap justify-content-center fixed-top navbar-expand-md py-3 mb-4">
+            <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+                <span class="fs-4">Mikal Paudel</span>
+            </a>
+
+            <ul class="nav">
+                <li class="nav-item"><a href="#" class="px-4" aria-current="page">Home</a></li>
+                <li class="nav-item"><a href="#about" class="px-4">About</a></li>
+                <li class="nav-item"><a href="#contact" class="px-4">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <div id="home">
+            <div class="px-4 py-5 my-5 text-center">
+                <h1 class="display-5 fw-bold">Mikal Paudel</h1>
+                <div class="col-lg-6 mx-auto">
+                    <p class="lead mb-4">Quickly design and customize responsive mobile-first sites with Bootstrap, the
+                        world’s most popular front-end open source toolkit, featuring Sass variables and mixins,
+                        responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
+                    <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+                        <button type="button" class="btn btn-primary btn-lg px-4 gap-3">Primary button</button>
+                        <button type="button" class="btn btn-outline-secondary btn-lg px-4">Secondary</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="about">
+            <h1 class="text-center fw-bold p-3">About me</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit at esse laborum accusamus adipisci amet,
+                odit voluptatibus quia ipsa suscipit, libero vero dolorum aliquid. Adipisci nostrum iste natus aut
+                numquam!</p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi veniam nihil minus eaque esse laborum
+                ad repudiandae accusantium vitae, illo laboriosam alias consectetur veritatis quis dolores tempore harum
+                quasi error.
+                Quibusdam eaque perferendis fuga animi est dolorem maiores laboriosam ea qui minima explicabo, veritatis
+                rem tenetur ex asperiores officia odit illum. Unde, ducimus sapiente ab rerum quia illum exercitationem
+                tempora.
+                Itaque laudantium delectus ipsam blanditiis necessitatibus natus voluptates adipisci fugiat autem
+                expedita, veritatis animi. Maxime quos libero magni sit voluptates commodi, inventore distinctio velit.
+                Impedit in quis cumque quasi aperiam.
+                Voluptas aperiam, cum animi in, praesentium fugiat reprehenderit numquam amet maxime harum debitis est
+                omnis corporis inventore odit suscipit distinctio nulla accusamus facilis recusandae natus beatae. Autem
+                debitis sit rerum!
+                Omnis, earum quod corrupti doloremque quibusdam tempora animi quia magni! Laboriosam neque id, expedita
+                mollitia dignissimos quae enim voluptas quas saepe, amet, tenetur velit. Quidem, magni? Atque alias
+                earum cum.</p>
+        </div>
+        <div id="contact">
+            <h1>Contact</h1>
+            <p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                    class="feather feather-mail">
+                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                    <polyline points="22,6 12,13 2,6"></polyline>
+                </svg> mikalpaudel@gmail.com <br>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                    class="feather feather-phone">
+                    <path
+                        d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z">
+                    </path>
+                </svg> 9876543210 <br>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                    class="feather feather-instagram">
+                    <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                    <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                    <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                </svg> mikalpaudel
+            </p>
+        </div>
+    </div>
+    <footer class="footer mt-auto py-3 bg-light">
+        <div class="container">
+            <span class="d-flex text-muted align-items-center justify-content-between">
+                <div class="footer-about">
+                    <h1>Mikal Paudel</h1>
+                    <p>Busy in building solutions for your ideas</p>
+                </div>
+                <div class="footer-contact">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                        class="feather feather-instagram">
+                        <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                        <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                        <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                    </svg>
+                    <b>mikalpaudel@gmail.com
+                        <br>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="feather feather-phone">
+                            <path
+                                d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z">
+                            </path>
+                        </svg> 9876543210</b>
+                </div>
+            </span>
+        </div>
+    </footer>
+    <footer>
+
+    </footer>
+</body>
+
+</html>
